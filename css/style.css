@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0px;
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  color: #81F0E5;
+}
+
+.screen-black {
+  height: 0;
+  width: 0;
+}
+
+.curiculim-vitae {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.ligne-bleu {
+  height: 1.8vh;
+  width: 100%;
+  background-color: #81F0E5;
+}
+
+.info-personnelles {
+  margin-top: 3vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info-personnelles .coordonees p, .info-personnelles .coordonees a {
+  color: black;
+}
+
+.parcours-scolaire {
+  margin-top: 2vh;
+  height: 16vh;
+}
+.parcours-scolaire .title-parcours {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1.4em;
+}
+
+.mon-parcours {
+  height: 10vh;
+}
+.mon-parcours .p-2021 {
+  padding-bottom: 5px;
+}
+.mon-parcours .p-2020_2021 {
+  padding-bottom: 5px;
+}
+
+.experience-professionelle {
+  margin-top: 2vh;
+  height: 15vh;
+}
+.experience-professionelle .title-experience {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1.4em;
+}
+
+.mon-experience .e-2018 {
+  padding-bottom: 5px;
+}
+.mon-experience .e-2017 {
+  padding-bottom: 5px;
+}
+
+.competences-informatique {
+  margin-top: 2vh;
+  height: 20vh;
+}
+.competences-informatique .title-competences {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1.4em;
+}
+
+.mes-competences .liste-competences {
+  padding-bottom: 5px;
+}
+.mes-competences .liste-competences li {
+  padding: 1px;
+}
+
+.competences-linguitiques {
+  margin-top: 2vh;
+  height: 10vh;
+}
+.competences-linguitiques .title-langues {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1.4em;
+}
+
+.mes-langues .liste-langues {
+  padding-bottom: 5px;
+}
+
+@media only screen and (max-width: 693px) {
+  *, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+  }
+
+  h3 {
+    font-family: "Open Sans", sans-serif;
+    color: #FF4365;
+  }
+
+  .screen-black {
+    height: 0;
+    width: 0;
+  }
+
+  .curiculim-vitae {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .ligne-bleu {
+    height: 1.8vh;
+    width: 100%;
+    background-color: #FF4365;
+  }
+
+  .info-personnelles {
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .info-personnelles .coordonees p, .info-personnelles .coordonees a {
+    color: black;
+  }
+
+  .parcours-scolaire {
+    margin-top: 2vh;
+    height: 16vh;
+  }
+  .parcours-scolaire .title-parcours {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.4em;
+  }
+
+  .mon-parcours {
+    height: 10vh;
+  }
+  .mon-parcours .p-2021 {
+    padding-bottom: 5px;
+  }
+  .mon-parcours .p-2020_2021 {
+    padding-bottom: 5px;
+  }
+
+  .experience-professionelle {
+    margin-top: 2vh;
+    height: 15vh;
+  }
+  .experience-professionelle .title-experience {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.4em;
+  }
+
+  .mon-experience .e-2018 {
+    padding-bottom: 5px;
+  }
+  .mon-experience .e-2017 {
+    padding-bottom: 5px;
+  }
+
+  .competences-informatique {
+    margin-top: 2vh;
+    height: 20vh;
+  }
+  .competences-informatique .title-competences {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.4em;
+  }
+
+  .mes-competences .liste-competences {
+    padding-bottom: 5px;
+  }
+  .mes-competences .liste-competences li {
+    padding: 1px;
+  }
+
+  .competences-linguitiques {
+    margin-top: 2vh;
+    height: 10vh;
+  }
+  .competences-linguitiques .title-langues {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.4em;
+  }
+
+  .mes-langues .liste-langues {
+    padding-bottom: 5px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
